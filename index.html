@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- INTRO SCREEN -->
+<div id="introScreen" class="intro">
+
+    <!-- Sparkles -->
+    <div class="sparkles"></div>
+
+    <!-- Glow Blobs -->
+    <div class="intro-glow glow1"></div>
+    <div class="intro-glow glow2"></div>
+    
+
+    <!-- PARTY BUNTING DECOR -->
+    <div class="party-bunting"></div>
+
+    <!-- Floating Balloons -->
+    <div class="balloon b1"></div>
+    <div class="balloon b2"></div>
+    <div class="balloon b3"></div>
+    <div class="balloon b4"></div>
+    <div class="balloon b5"></div>
+
+    <!-- Floating Ribbons -->
+    <div class="ribbon r1"></div>
+    <div class="ribbon r2"></div>
+    <div class="ribbon r3"></div>
+
+    <!-- Cake -->
+    <img src="images/cake.png" class="intro-cake" alt="Cake">
+
+    <!-- Blow Button -->
+    <button id="blowBtn" class="blow-btn">Blow Candles 🎤</button>
+
+    <!-- Intro Music -->
+    <audio id="introMusic" autoplay loop>
+        <source src="music/happy-birthday.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+
+    <div class="sparkles"></div>
+
+    <!-- Balloons  -->
+    <div class="balloon b7"></div>
+    <div class="balloon b8"></div>
+    <div class="balloon b9"></div>
+    <div class="balloon b10"></div>
+    <div class="balloon b11"></div>
+    <div class="balloon b12"></div>
+
+    <!-- Ribbons  -->
+    <div class="ribbon r5"></div>
+    <div class="ribbon r6"></div>
+    <div class="ribbon r7"></div>
+    <div class="ribbon r8"></div>
+
+    <!-- MAIN CONTENT -->
+    <div class="container-wrapper">
+        <div class="container">
+
+            <!-- Glow Effects -->
+            <div class="glow left"></div>
+            <div class="glow right"></div>
+
+            <!-- Balloons  -->
+            <div class="balloon b1"></div>
+            <div class="balloon b2"></div>
+            <div class="balloon b3"></div>
+            <div class="balloon b4"></div>
+            <div class="balloon b5"></div>
+            <div class="balloon b6"></div>
+
+            <!-- Ribbons  -->
+            <div class="ribbon r1"></div>
+            <div class="ribbon r2"></div>
+            <div class="ribbon r3"></div>
+            <div class="ribbon r4"></div>
+
+            <!-- NAME -->
+            <h1 class="title">Happy Birthday Subhiiii 🎉🎉🎂🥳🎉</h1>
+
+            <!-- MESSAGE -->
+            <p class="message">Happy Birthday to my college jail-mate</p>
+
+            <!-- IMAGE GALLERY -->
+            <div class="gallery">
+                <img id="galleryImage" src="images/img1.jpg" alt="Image">
+            </div>
+
+            <div class="controls">
+                <button onclick="prevImage()">◀</button>
+                <button onclick="nextImage()">▶</button>
+            </div>
+
+            <!-- MUSIC -->
+            <audio id="bgMusic"  loop>
+                <source src="music/song.mp3" type="audio/mpeg">
+            </audio>
+
+            <button class="musicBtn" id="musicBtn" onclick="toggleMusic()">♫</button>
+        </div>
+    </div>
+
+    <canvas id="confettiCanvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
