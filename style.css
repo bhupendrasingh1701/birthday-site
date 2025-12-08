@@ -226,7 +226,7 @@ body {
 
 .glow1 { top: -40px; left: -80px; }
 .glow2 { bottom: -60px; right: -50px; }
-.glow3 { top: 40%; left: 50%; transform: translateX(-50%); }
+
 
 /* Intro cake */
 .intro-cake {
